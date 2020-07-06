@@ -21,6 +21,10 @@ body {
       height: auto;
     border-radius: 50%;
 }
+  a{
+      color: antiquewhite;
+      text-decoration: none;
+  }
   #maintext {
     width: 100%;
     height: 95%;
