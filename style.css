@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'BulkyPixels';
+    src: url('fonts/BulkyPixels.ttf');
+    src: url('fonts/BulkyPixels.eot');
+    src: url('fonts/BulkyPixels.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BulkyPixels.woff2') format('woff2'),
+        url('fonts/BulkyPixels.woff') format('woff');
+}
+
+
 body {
     background: #101010;
     overflow: hidden;
@@ -10,10 +20,12 @@ body {
     opacity: 0.3;
   }
 
-  h4{
+  h1{
+    font-family: BulkyPixels;
       color: beige;
   }
-  h5{
+  h2{
+    font-family: BulkyPixels;
       color: beige;
   }
   img{
@@ -22,6 +34,7 @@ body {
     border-radius: 50%;
 }
   a{
+    font-family: BulkyPixels;
       color: antiquewhite;
       text-decoration: none;
   }
